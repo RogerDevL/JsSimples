@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Quicksand", sans-serif;
+    background-color:black;
+    background-image:
+    radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+    radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+    radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+    radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+    background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-top: 10%;
+}
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: auto;
+}
+header h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Quicksand", sans-serif;
+}
+.form-control{
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.form-control input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.form-button {
+    text-align: center;
+}
+.form-button button {
+    background-color: #ec9b9b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.form-button button:hover {
+    background-color: #215f88;
+}
+.form-button button:active {
+    background-color: rgb(67, 67, 253);
+}
+.lista{
+    list-style-type: none;
+    margin-top: 20px;
+    padding: 10px;
+    
+    border-radius: 10px;
+}
+
+ul{
+    margin-top: 10px;
+}
+form label{
+    margin-top: 20px;
+}
+.div-script{
+    display: flex;
+    flex-direction: column;
+    background-color: #286aa7;
+    margin-bottom: 10%;
+    padding: 10px;
+    border-radius: 15px;
+}
+.but{
+    margin-left: 10%;
+    margin-top: 1%;
+}
+.but button{
+    background-color: #ec9b9b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.but button:hover {
+    background-color: #215f88;
+}
+.form-button button:active {
+    background-color: rgb(67, 67, 253);
+}
+
+.inputs{
+    background-color: #e0e0e0;
+    margin-bottom: 10%;
+    border-radius: 15px;
+    padding: 10px;
+}
